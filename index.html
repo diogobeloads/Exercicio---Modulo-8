@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda do Dev Front-End</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body class="bg">
+    <div class="container">
+        <header>
+            <h1>AGENDA DO DEV FRONT-END</h1>
+        </header>
+        <form id="form-contato">
+            <span class="bi bi-file-person"></span>
+            <input type="text" id="nomeContato" required placeholder="Nome" class="btn btn-default btn-sm">                           
+            <span class="bi bi-telephone"></span>
+            <input type="number" id="numeroContato" required placeholder="Telefone">
+            <button type="submit" id="form-button">Adicionar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>              
+                <th>
+                  Nome do Contato
+                </th>
+                <th>Telefone</th>
+                <th>Adicionado?</th>      
+            </thead> <tbody>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>                    
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+<script src="./main.js"></script>
+</body>
+</html>
