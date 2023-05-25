@@ -29,6 +29,9 @@ function adicionaLinha() {
     linha += `</tr>`;
 
     linhas += linha;
+
+    inputNomeContato.value = '';
+    inputNumeroContato.value = '';
     }    
 }
 function atualizaTabela() {
